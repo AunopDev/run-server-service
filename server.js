@@ -10,6 +10,7 @@ const app = express();
 
 // สร้างตัวแปรเก็บค่า port number ที่อยู่ใน .env
 const PORT = process.env.PORT || 4040;
+let xxx = 'wow';
 
 // สร้าง Route สำหรับ test connect server
 app.get("/", (req, res) => {
